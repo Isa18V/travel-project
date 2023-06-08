@@ -87,6 +87,7 @@ header button {
 }
 .image-content {
   width: 500px;
+  border-radius: 10px;
   display: block;
 }
 /* /////////////media queries////////////// */
@@ -97,12 +98,20 @@ header button {
   header h1 {
     font-size: 20px;
   }
+  header button {
+    padding: 8px 15px;
+    margin-top: 20px;
+    font-size: 10px;
+    font-family: poppins;
+    font-weight: 500;
+    letter-spacing: 0.05cm;
+  }
   .grid {
     grid-template-columns: 1fr;
     padding: 50px;
   }
   .image-content {
-    width: 250px;
+    width: 160px;
     display: block;
   }
   .grid-2-columns-info h2 {
