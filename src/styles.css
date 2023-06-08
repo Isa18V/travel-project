@@ -90,6 +90,8 @@ header button {
   border-radius: 10px;
   display: block;
 }
+/* end content1 */
+
 /* /////////////media queries////////////// */
 @media (max-width: 900px) {
   header {
