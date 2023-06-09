@@ -176,7 +176,17 @@ header button {
   background-color: white;
   padding: 100px;
 }
+
 /* /////////////media queries////////////// */
+@media (max-width: 1200px) {
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container2 {
+    padding: 50px;
+  }
+}
 @media (max-width: 900px) {
   header {
     height: 400px;
@@ -210,5 +220,24 @@ header button {
   .grid-info p {
     font-size: 10px;
     line-height: 1.5;
+  }
+  /* end content1 */
+}
+@media (max-width: 641px) {
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .map {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .map img {
+    width: 100%;
+    height: 150px;
+    display: block;
+  }
+  .map iframe {
+    display: none;
   }
 }
