@@ -140,6 +140,12 @@ header button {
   line-height: 0.8cm;
   text-align: center;
 }
+.container-button-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 .content1-grid-2 button {
   padding: 15px 30px;
   margin-top: 20px;
@@ -147,6 +153,8 @@ header button {
   font-size: 16px;
   font-family: poppins;
   font-weight: 700;
+  background-color: rgba(109, 109, 184, 0.848);
+  color: white;
   letter-spacing: 0.09cm;
 }
 .map {
@@ -163,7 +171,11 @@ header button {
   height: 150px;
   display: block;
 }
-
+/* end content2 */
+.container3 {
+  background-color: white;
+  padding: 100px;
+}
 /* /////////////media queries////////////// */
 @media (max-width: 900px) {
   header {
