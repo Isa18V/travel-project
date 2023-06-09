@@ -278,7 +278,27 @@ footer {
   .imagesresponsive img {
     width: 280px;
     border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: block;
+  }
+  .container3-responsive h2 {
+    color: #272044;
+    opacity: 0.3;
+    text-align: center;
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 700;
+    letter-spacing: 0.09cm;
+  }
+  .container3-responsive h3 {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.5;
+    color: #272044;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   /* end content 3 only responsive mobile*/
 }
