@@ -122,17 +122,29 @@ header button {
   margin-top: 20px;
 }
 .content1-grid-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: white;
 }
 .content1-grid-2 h4 {
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
+  text-align: center;
   color: #272044;
   margin: 0;
+}
+.map {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.map img {
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+.map iframe {
+  width: 150px;
+  height: 150px;
+  display: block;
 }
 /* /////////////media queries////////////// */
 @media (max-width: 900px) {
